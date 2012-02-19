@@ -9,7 +9,11 @@ Just add the jquery.watermark, then knockout.watermark.js to your project, as it
 ## Example
 
 A simple example of adding a watermark:
+```html
 <input id="some-input-element" type="text" data-bind="watermark: 'Enter some data here'" /> 
+```
 
 A more complicated example with options ( all options can be found within the jquery watermark | http://code.google.com/p/jquery-watermark ):
-<input id="some-input-element" type="text" data-bind="watermark: { text: 'Enter some data here', options: { useNative: false } }" /> 
+```html
+<input id="some-input-element" type="text" data-bind="watermark: { text: 'Enter some data here', options: { useNative: false } }" />
+```
